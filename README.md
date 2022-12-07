@@ -1,5 +1,12 @@
-# Chatbot NLTK
+# Sally the Chatbot (Portfolio Project with NLTK and Deep Learning)
  Chatbot project for portfolio
+
+
+## Project Description
+
+
+
+## Credits
 
 
 This Chatbot is inspired by this article:
