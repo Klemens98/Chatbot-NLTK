@@ -102,7 +102,7 @@ train_loader = DataLoader(dataset=dataset,
                           shuffle=True,
                           num_workers=0)
 # num_workers is for multi- processing/threading
-# Set to 9 if raising an error under windows  
+# Set to 0 if raising an error under windows  
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
