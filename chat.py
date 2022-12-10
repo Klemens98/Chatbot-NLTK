@@ -27,7 +27,7 @@ model = NeuralNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
 model.eval()
 
-bot_name = "Sell"
+bot_name = "Sally"
 
 print("Hello, can I help you with something? If you want to quit the conversation just write 'quit'")
 while(True):
