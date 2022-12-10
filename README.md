@@ -1,6 +1,4 @@
 # Sally the Chatbot (Portfolio Project with NLTK and Deep Learning)
- Chatbot project for portfolio
-
 
 
 ## Project Description
@@ -12,6 +10,11 @@ As for now it solely runs in the console, may change later.
 The motivation behind this project was to get some first hand, programming and AI experience to underline my pre-master in Artificial Intelligence at the Radboud University.
 
 I choose to use NLTK for NLP(Natural Language Processing) and PyTorch for the neuronal networks.
+
+## Special Remarks
+As this is also a learning project, comments will be overexaggerated to better infer what I learned and was doing at that period. 
+So be prepared for unnecessary commenting. Could be that I will publish a polished version at the end.
+
 
 ## Credits
 
