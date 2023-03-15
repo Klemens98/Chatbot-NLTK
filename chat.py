@@ -1,6 +1,5 @@
 import random
 import json
-
 import torch
 
 from model import NeuralNet
@@ -30,7 +29,7 @@ model.eval()
 bot_name = "Sally"
 
 print("Hello, can I help you with something? If you want to quit the conversation just write 'quit'")
-while(True):
+while (True):
     sentence = input("You: ")
     if sentence == "quit":
         break
@@ -43,7 +42,7 @@ while(True):
 
     output = model(X)
     _, predicted = torch.max(output, dim=1)
-    
+
     tag = tags[predicted.item()]
 
     probs = torch.softmax(output, dim=1)
